@@ -1,4 +1,32 @@
 mixin footer()
-    footer.footer   
-        .footer__body.container 
-            p footer 
+    footer.footer 
+        .footer__container 
+            .footer__annotation
+                img(src="@img/logo.png", alt="logo" draggable="false") 
+                .annotation-publication 
+                    p Built by Nikolai Bain.
+                    p Powered by Webflow.
+                p © 2022 Memberbase. All Rights Reserved.
+            .footer__navigation 
+                .navigation__elements
+                    h3 Website
+                    a(href="#") Home
+                    a(href="#") Resources
+                    a(href="#") Contact
+                    a(href="#") Ebooks(CMS)
+                    a(href="#") Terms&Condition 
+                    a(href="#") Privacy Policy
+                .navigation__elements
+                    h3 Admin
+                    a(href="#") Style Guide
+                    a(href="#") Licenses
+                    a(href="#") Instructions
+                    a(href="#") Password
+                    a(href="#") Error 404 
+                .navigation__elements
+                    h3 Membership
+                    a(href="#") Sign In
+                    a(href="#") Sing up
+                    a(href="#") User Account
+                    a(href="#") Reset Password
+                    a(href="#") Terms&Condition 

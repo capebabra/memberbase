@@ -1,6 +1,58 @@
-.footer { 
-    background-color: yellowgreen;
-    p {
-        color: blue;
+.footer{
+    background-color: #fff;
+    .footer__container{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+        padding: 40px 50px;
+        .footer__annotation{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            img{
+                width: 300px;
+                max-height: 200px;
+            }
+            .annotation-publication{
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: 'Montserrat';
+                }
+            }
+            p{
+                font-size: 14px;
+                font-family: 'Montserrat';
+                font-weight: 400;
+            }
+        }
+        .footer__navigation{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            .navigation__elements{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h3{
+                    font-size: 18px;
+                    font-family: 'Raleway';
+                    font-weight: 400;
+                    color: #6c6b6b;
+                    padding-bottom: 20px;
+                }
+                a{
+                    font-size: 16px;
+                    font-family: 'Montserrat';
+                    font-weight: 200;
+                    color: #3f3d3d;
+                    text-decoration: none;
+                    &:hover{
+                        color: #1a1919;
+                    }
+                }
+            }
+        }
     }
 }

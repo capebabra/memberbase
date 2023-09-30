@@ -4,31 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230911220251">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230930052558">
     <title>Document</title>
   </head>
   <body> 
     <div class="wrapper"> 
             <header class="header">
-              <div class="header__container container"><a class="header__logo" href="#"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture></a>
+              <div class="header__container">
+                <div class="header__logo"><a href="#"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" target="_blank" draggable="false"></picture></a></div>
                 <ul class="header__navigation"> 
-                  <li> <a href="#">main</a></li>
-                  <li> <a href="#">home</a></li>
-                  <li> <a href="#">contact</a></li>
+                  <li> <a href="#">All Resources </a></li>
+                  <li> <a href="#">Log In </a></li>
+                  <li> <a href="#">Free Sign Up  </a></li>
                 </ul>
               </div>
             </header>
-            <main class="main"> 
-              <div class="container"> 
-                <h1>Main</h1>
+            <block1 class="block1">   
+              <div class="block1__container">
+                <div class="block1__content">
+                  <h3>Access a library of free design resources</h3>
+                  <p>The best resources and books from around the web, collected and curated for your reading.</p><a href="#">Get Access Now </a>
+                </div>
+                <div class="block1__img"> <picture><source srcset="img/block1.webp" type="image/webp"><img src="img/block1.png" alt="block1_img" draggable="false"></picture></div>
               </div>
-            </main>
-            <footer class="footer">  
-              <div class="footer__body container"> 
-                <p>footer </p>
+            </block1>
+            <block2 class="block2"> 
+              <div class="block2__container">
+                <div class="block2__navigation"> 
+                  <h3>Featured Resources </h3><a href="#"> See All Resources </a>
+                </div>
+                <div class="block2__content"> <a class="block2__box" href="#"><picture><source srcset="img/box1.webp" type="image/webp"><img src="img/box1.png" alt="box1" draggable="false"></picture>
+                    <p>By Nikolai Bain</p>
+                    <h4>Grids and Alignment</h4>
+                    <p>Expedita laborum suscipit sequi et nobis voluptas fuga placeat. Omnis est ratione. Repellendus recusandae a. Nulla quia cum aliquam dolores beatae tempore harum pariatur. Velit amet officiis.</p></a><a class="block2__box" href="#"> <picture><source srcset="img/box2.webp" type="image/webp"><img src="img/box2.png" alt="box2" draggable="false"></picture>
+                    <p>By Maxwell Milton</p>
+                    <h4>Remote Work for Design Teams</h4>
+                    <p>Repudiandae asperiores excepturi repellat minus id et. Saepe molestiae accusantium fugit et aut. Reicie</p></a><a class="block2__box" href="#"><picture><source srcset="img/box3.webp" type="image/webp"><img src="img/box3.png" alt="box3" draggable="false"></picture>
+                    <p>By Franko Realguy</p>
+                    <h4>Design Systems in Product Teams</h4>
+                    <p>Ut libero molestias excepturi veniam et dicta assumenda tenetur voluptatem. Qui dolor officiis eum. Doloribus odit qui quia blanditiis omnis asperiores perspiciatis qui deleniti.</p></a><a class="block2__box" href="#"> <picture><source srcset="img/box4.webp" type="image/webp"><img src="img/box4.png" alt="box4" draggable="false"></picture>
+                    <p>By Nikolai Bain</p>
+                    <h4>All in One Color Handbook</h4>
+                    <p>Vel esse et temporibus inventore alias assumenda. Repellat sit accusamus id sed est animi vel. Odit non ut reprehenderit consequatur sit aliquam. Aut aliquid consequatur</p></a><a class="block2__box" href="#"><picture><source srcset="img/box5.webp" type="image/webp"><img src="img/box5.png" alt="box5" draggable="false"></picture>
+                    <p>By Tim Tommons</p>
+                    <h4>Digital Wellbeing and Support</h4>
+                    <p>Dignissimos dolores enim ipsum quia occaecati voluptas aut delectus. Reiciendis recusandae minima quod qui. Eum dicta et nihil ad et nam. Vitae et itaque porro. Ipsa distinctio laboriosam veritatis. Minus quia eos ut.</p></a></div>
+              </div>
+            </block2>
+            <block2 class="block3"> 
+              <div class="block3__container">
+                <h3>Get more great resources</h3>
+                <div class="block3__paragraph"> 
+                  <p>Get the latest design resources from across the web. </p>
+                  <p>Straight to your inbox.</p>
+                </div>
+                <div class="block3__register"> 
+                  <input id="search-input" type="text" placeholder="Enter your email">
+                  <button id="search-button">Subscribe </button>
+                </div>
+              </div>
+            </block2>
+            <footer class="footer"> 
+              <div class="footer__container"> 
+                <div class="footer__annotation"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" draggable="false"></picture>
+                  <div class="annotation-publication"> 
+                    <p>Built by Nikolai Bain.</p>
+                    <p>Powered by Webflow.</p>
+                  </div>
+                  <p>© 2022 Memberbase. All Rights Reserved.</p>
+                </div>
+                <div class="footer__navigation"> 
+                  <div class="navigation__elements">
+                    <h3>Website</h3><a href="#">Home</a><a href="#">Resources</a><a href="#">Contact</a><a href="#">Ebooks(CMS)</a><a href="#">Terms&Condition </a><a href="#">Privacy Policy</a>
+                  </div>
+                  <div class="navigation__elements">
+                    <h3>Admin</h3><a href="#">Style Guide</a><a href="#">Licenses</a><a href="#">Instructions</a><a href="#">Password</a><a href="#">Error 404 </a>
+                  </div>
+                  <div class="navigation__elements">
+                    <h3>Membership</h3><a href="#">Sign In</a><a href="#">Sing up</a><a href="#">User Account</a><a href="#">Reset Password</a><a href="#">Terms&Condition </a>
+                  </div>
+                </div>
               </div>
             </footer>
     </div>
-    <script src="js/app.min.js?_v=20230911220251"> </script>
+    <script src="js/app.min.js?_v=20230930052558"> </script>
   </body>
 </html>

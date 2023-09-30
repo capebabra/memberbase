@@ -1,0 +1,43 @@
+.block1{
+    background: linear-gradient(to bottom left, #c3b1b1, #fff, #d5a2a2);
+    .block1__container{
+        padding: 50px 30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: center;
+        .block1__content
+        {
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+           max-width: 600px;
+           padding: 10px 60px;
+           
+           h3{
+            font-size: 32px;
+           }
+           p{
+            font-size: 22px;
+           }
+           a{
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 10px 10px;
+            background-color: black;
+            color: #fff;
+            width: 200px;
+            font-size: 22px;
+            &:hover{
+                opacity: 0.86;
+            }
+           }
+        }
+        .block1__img{
+            img{
+                width: 350px;
+                max-height: 500px;
+            }
+        }
+    }
+}

@@ -1,13 +1,15 @@
 mixin header()
     header.header
-        .header__container.container
-            a(href="#").header__logo
-                img(src="@img/logo.png", alt="logo") 
+        .header__container
+            .header__logo
+                a(href="#")
+                    img(src="@img/logo.png", alt="logo" target="_blank" draggable="false")
+                
             ul.header__navigation  
                 li 
-                    a(href="#") main
+                    a(href="#") All Resources 
                 li 
-                    a(href="#") home
+                    a(href="#") Log In 
                 li 
-                    a(href="#") contact
+                    a(href="#") Free Sign Up  
                 
