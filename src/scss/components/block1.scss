@@ -1,11 +1,11 @@
 .block1{
     background: linear-gradient(to bottom left, #c3b1b1, #fff, #d5a2a2);
-    .block1__container{
-        padding: 50px 30px;
+    .container{
+        padding: 50px 15px;
         display: flex;
         justify-content: space-between;
-        gap: 40px;
         align-items: center;
+        gap: 40px;
         .block1__content
         {
            display: flex;

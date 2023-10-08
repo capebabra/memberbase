@@ -1,62 +1,6 @@
 @font-face {
   font-family: Montserrat;
   font-display: swap;
-  src: url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
   src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -67,14 +11,6 @@
   font-display: swap;
   src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
   font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff") format("woff");
-  font-weight: 200;
   font-style: normal;
 }
 
@@ -83,14 +19,6 @@
   font-display: swap;
   src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
   font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -113,32 +41,104 @@
 @font-face {
   font-family: Montserrat;
   font-display: swap;
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Montserrat;
-  font-display: swap;
   src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Montserrat;
+  font-family: Poppins;
   font-display: swap;
-  src: url("../fonts/Montserrat-Thin.woff2") format("woff2"), url("../fonts/Montserrat-Thin.woff") format("woff");
-  font-weight: 100;
+  src: url("../fonts/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Montserrat;
+  font-family: Poppins;
   font-display: swap;
-  src: url("../fonts/Montserrat-Thin.woff2") format("woff2"), url("../fonts/Montserrat-Thin.woff") format("woff");
-  font-weight: 100;
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  font-display: swap;
+  src: url("../fonts/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  font-display: swap;
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  font-display: swap;
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-Light.woff2") format("woff2"), url("../fonts/Raleway-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-Light.woff2") format("woff2"), url("../fonts/Raleway-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-SemiBold.woff2") format("woff2"), url("../fonts/Raleway-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-display: swap;
+  src: url("../fonts/Raleway-SemiBold.woff2") format("woff2"), url("../fonts/Raleway-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  font-display: swap;
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -223,21 +223,21 @@
   background: linear-gradient(to bottom left, #c3b1b1, #fff, #d5a2a2);
 }
 
-.block1 .block1__container {
-  padding: 50px 30px;
+.block1 .container {
+  padding: 50px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 40px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 40px;
 }
 
-.block1 .block1__container .block1__content {
+.block1 .container .block1__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,15 +250,15 @@
   padding: 10px 60px;
 }
 
-.block1 .block1__container .block1__content h3 {
+.block1 .container .block1__content h3 {
   font-size: 32px;
 }
 
-.block1 .block1__container .block1__content p {
+.block1 .container .block1__content p {
   font-size: 22px;
 }
 
-.block1 .block1__container .block1__content a {
+.block1 .container .block1__content a {
   text-decoration: none;
   border-radius: 10px;
   padding: 10px 10px;
@@ -268,74 +268,20 @@
   font-size: 22px;
 }
 
-.block1 .block1__container .block1__content a:hover {
+.block1 .container .block1__content a:hover {
   opacity: 0.86;
 }
 
-.block1 .block1__container .block1__img img {
+.block1 .container .block1__img img {
   width: 350px;
   max-height: 500px;
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-Light.ttf);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-Medium.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-SemiBold.ttf);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-Light.ttf);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-Medium.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-SemiBold.ttf);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-Light.ttf);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-Medium.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-SemiBold.ttf);
-  font-weight: 600;
 }
 
 .block2 {
   background-color: #fff;
 }
 
-.block2 .block2__container {
+.block2 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,7 +290,7 @@
   gap: 30px;
 }
 
-.block2 .block2__container .block2__navigation {
+.block2 .container .block2__navigation {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -354,30 +300,29 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 30px 100px;
+  padding: 30px 15px;
   gap: 40px;
 }
 
-.block2 .block2__container .block2__navigation h3 {
+.block2 .container .block2__navigation h3 {
   font-size: 26px;
 }
 
-.block2 .block2__container .block2__navigation a {
+.block2 .container .block2__navigation a {
   border-radius: 10px;
   padding: 10px 15px;
   background-color: #cad6dc;
   text-decoration: none;
   font-size: 18px;
-  font-family: "Montserrat";
   font-weight: 400;
   color: #2c2c2c;
 }
 
-.block2 .block2__container .block2__navigation a:hover {
+.block2 .container .block2__navigation a:hover {
   background-color: #9eb4c8;
 }
 
-.block2 .block2__container .block2__content {
+.block2 .container .block2__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,12 +332,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
   gap: 30px;
 }
 
-.block2 .block2__container .block2__content .block2__box {
+.block2 .container .block2__content .block2__box {
   width: 410px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -403,143 +346,30 @@
           flex-direction: column;
   padding: 10px 10px;
   text-decoration: none;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  -o-transition: transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
-.block2 .block2__container .block2__content .block2__box img {
-  width: 350px;
+.block2 .container .block2__content .block2__box:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.block2 .container .block2__content .block2__box img {
+  width: 100%;
   max-height: 450px;
 }
 
-.block2 .block2__container .block2__content .block2__box p {
+.block2 .container .block2__content .block2__box p {
   width: 350px;
 }
 
-.block2 .block2__container .block2__content .block2__box h4 {
+.block2 .container .block2__content .block2__box h4 {
   width: 350px;
-}
-
-.block2 .block2__container .block2__content .block2__box:nth-child(1) {
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
-  -o-transition: transform 300ms;
-  transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
-}
-
-.block2 .block2__container .block2__content .block2__box:nth-child(2) {
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
-  -o-transition: transform 300ms;
-  transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
-}
-
-.block2 .block2__container .block2__content .block2__box:nth-child(3) {
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
-  -o-transition: transform 300ms;
-  transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
-}
-
-.block2 .block2__container .block2__content .block2__box:nth-child(4) {
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
-  -o-transition: transform 300ms;
-  transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
-}
-
-.block2 .block2__container .block2__content .block2__box:nth-child(5) {
-  -webkit-transition: -webkit-transform 300ms;
-  transition: -webkit-transform 300ms;
-  -o-transition: transform 300ms;
-  transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms;
-}
-
-.block2 .block2__container .block2__content:hover .block2__box:nth-child(1) {
-  -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-.block2 .block2__container .block2__content:hover .block2__box:nth-child(2) {
-  -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-.block2 .block2__container .block2__content:hover .block2__box:nth-child(3) {
-  -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-.block2 .block2__container .block2__content:hover .block2__box:nth-child(4) {
-  -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-.block2 .block2__container .block2__content:hover .block2__box:nth-child(5) {
-  -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-Light.ttf);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-Medium.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-SemiBold.ttf);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-Light.ttf);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-Medium.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-SemiBold.ttf);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-Light.ttf);
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-Medium.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-SemiBold.ttf);
-  font-weight: 600;
 }
 
 .block3 {
@@ -548,7 +378,7 @@
   background: linear-gradient(to left, #d1a1a1, #303030);
 }
 
-.block3 .block3__container {
+.block3 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,17 +395,16 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 20px;
-  padding: 20px 30px;
+  padding: 20px 15px;
 }
 
-.block3 .block3__container h3 {
+.block3 .container h3 {
   font-size: 24px;
-  font-family: "Montserrat";
   font-weight: 600;
   color: #fff;
 }
 
-.block3 .block3__container .block3__paragraph {
+.block3 .container .block3__paragraph {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -588,25 +417,24 @@
           align-items: center;
 }
 
-.block3 .block3__container .block3__paragraph p {
+.block3 .container .block3__paragraph p {
   font-size: 20px;
-  font-family: "Montserrat";
   font-weight: 400;
   color: #fff;
 }
 
-.block3 .block3__container .block3__register {
+.block3 .container .block3__register {
   border-radius: 10px;
   padding: 15px 15px;
 }
 
-.block3 .block3__container .block3__register input {
+.block3 .container .block3__register input {
   border-radius: 10px;
   padding: 10px 15px;
   outline: none;
 }
 
-.block3 .block3__container .block3__register button {
+.block3 .container .block3__register button {
   background-color: #252424;
   border-radius: 10px;
   padding: 10px 15px;
@@ -622,7 +450,7 @@
   font-size: 18px;
 }
 
-.block3 .block3__container .block3__register button:hover {
+.block3 .container .block3__register button:hover {
   background-color: #191818;
 }
 

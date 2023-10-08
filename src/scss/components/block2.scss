@@ -1,51 +1,6 @@
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-Light.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-Medium.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: Montserrat;
-  src: url(/memberbase/src/fonts/Montserrat-SemiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-Light.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-Medium.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: Raleway;
-  src: url(/memberbase/src/fonts/Raleway-SemiBold.ttf);
-  font-weight: 600;
-}
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-Light.ttf);
-  font-weight: 200;
-}
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-Medium.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: Poppins;
-  src: url(/memberbase/src/fonts/Poppins-SemiBold.ttf);
-  font-weight: 600;
-}
 .block2 {
   background-color: #fff;
-  .block2__container {
+  .container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -53,7 +8,7 @@
       flex: 1; 
       display: flex;
       justify-content: space-between;
-      padding: 30px 100px;
+      padding: 30px 15px;
       gap: 40px;
       h3 {
         font-size: 26px;
@@ -64,7 +19,6 @@
         background-color: #cad6dc;
         text-decoration: none; 
         font-size: 18px;
-        font-family: 'Montserrat';
         font-weight: 400;
         color: #2c2c2c;
         &:hover{
@@ -77,8 +31,6 @@
       flex-wrap: wrap;
       padding-bottom: 30px;
       justify-content: space-between;
-      padding-left: 100px;
-      padding-right: 100px;
       gap: 30px;
       .block2__box {
         width: 410px;
@@ -86,8 +38,12 @@
         flex-direction: column;
         padding: 10px 10px;
         text-decoration: none;
+        transition: transform .4s;
+        &:hover{
+          transform: translateY(-10px);
+        }
         img{
-          width: 350px;
+          width: 100%;
           max-height: 450px;
         }
         p{
@@ -96,36 +52,6 @@
         h4{
           width: 350px;
         }
-      }
-      .block2__box:nth-child(1){
-        transition: transform 300ms;
-      }
-      .block2__box:nth-child(2){
-        transition: transform 300ms;
-      }
-      .block2__box:nth-child(3){
-        transition: transform 300ms;
-      }
-      .block2__box:nth-child(4){
-        transition: transform 300ms;
-      }
-      .block2__box:nth-child(5){
-        transition: transform 300ms;
-      }
-      &:hover .block2__box:nth-child(1){
-        transform:translateY(-10px);
-      }
-      &:hover .block2__box:nth-child(2){
-        transform:translateY(-10px);
-      }
-      &:hover .block2__box:nth-child(3){
-        transform:translateY(-10px);
-      }
-      &:hover .block2__box:nth-child(4){
-        transform:translateY(-10px);
-      }
-      &:hover .block2__box:nth-child(5){
-        transform:translateY(-10px);
       }
     }
   }

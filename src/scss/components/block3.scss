@@ -1,61 +1,15 @@
-@font-face {
-    font-family: Montserrat;
-    src: url(/memberbase/src/fonts/Montserrat-Light.ttf);
-    font-weight: 200;
-}
-@font-face {
-    font-family: Montserrat;
-    src: url(/memberbase/src/fonts/Montserrat-Medium.ttf);
-    font-weight: 400;
-}
-@font-face {
-    font-family: Montserrat;
-    src: url(/memberbase/src/fonts/Montserrat-SemiBold.ttf);
-    font-weight: 600;
-}
-@font-face {
-    font-family: Raleway;
-    src: url(/memberbase/src/fonts/Raleway-Light.ttf);
-    font-weight: 200;
-}
-@font-face {
-    font-family: Raleway;
-    src: url(/memberbase/src/fonts/Raleway-Medium.ttf);
-    font-weight: 400;
-}
-@font-face {
-    font-family: Raleway;
-    src: url(/memberbase/src/fonts/Raleway-SemiBold.ttf);
-    font-weight: 600;
-}
-@font-face {
-    font-family: Poppins;
-    src: url(/memberbase/src/fonts/Poppins-Light.ttf);
-    font-weight: 200;
-}
-@font-face {
-    font-family: Poppins;
-    src: url(/memberbase/src/fonts/Poppins-Medium.ttf);
-    font-weight: 400;
-}
-@font-face {
-    font-family: Poppins;
-    src: url(/memberbase/src/fonts/Poppins-SemiBold.ttf);
-    font-weight: 600;
-}
 .block3{
     background: linear-gradient(to left, #d1a1a1, #303030);
-    .block3__container{
+    .container{
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
         justify-content: center;
         gap: 20px;
-        padding: 20px 30px;
+        padding: 20px 15px;
         h3{
             font-size: 24px;
-            font-family: 'Montserrat';
             font-weight: 600;
             color: #fff;
         }
@@ -65,7 +19,6 @@
             align-items: center;
             p{
                 font-size: 20px;
-                font-family: 'Montserrat';
                 font-weight: 400;
                 color: #fff;
             }
